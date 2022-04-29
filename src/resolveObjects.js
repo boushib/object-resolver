@@ -22,7 +22,6 @@ const resolveObjects = obj => {
         delete currentNode[key]
       } else {
         const child = currentNode[key]
-        currentNode[key] = child
 
         if (typeof child === 'object') {
           queue.push(child)
