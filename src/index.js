@@ -1,1 +1,1 @@
-console.log('that works!')
+console.log('app started!')
